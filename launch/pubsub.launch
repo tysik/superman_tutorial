@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="superman_tutorial" type="publisher" name="extra_publisher"/>
+  <node pkg="superman_tutorial" type="subscriber" name="extra_subscriber" output="screen"/>
+</launch>
